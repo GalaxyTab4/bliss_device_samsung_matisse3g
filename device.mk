@@ -20,18 +20,6 @@ $(call inherit-product-if-exists, vendor/samsung/matisse3g/matisse3g-vendor.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/matisse3g/overlay
 
-# Ramdisk
-PRODUCT_PACKAGES += \
-    init.crda.sh \
-    init.qcom.bt.sh
-
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    init.qcom.rc \
-    init.qcom.usb.rc \
-    init.target.rc \
-    ueventd.qcom.rc
-
 # Inherit from matisse-common
 $(call inherit-product, device/samsung/matisse-common/matisse-common.mk)
 
