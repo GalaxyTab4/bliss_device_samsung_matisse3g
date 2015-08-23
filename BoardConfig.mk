@@ -19,6 +19,9 @@ TARGET_OTA_ASSERT_DEVICE := matisse3g
 
 LOCAL_PATH := device/samsung/matisse3g
 
+# ART
+ART_USE_HSPACE_COMPACT := true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
