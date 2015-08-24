@@ -20,6 +20,13 @@ $(call inherit-product-if-exists, vendor/samsung/matisse3g/matisse3g-vendor.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/matisse3g/overlay
 
+PRODUCT_PACKAGES += \
+    CellBroadcastReceiver
+
+# Samsung
+PRODUCT_PACKAGES += \
+    SamsungServiceMode
+
 # Inherit from matisse-common
 $(call inherit-product, device/samsung/matisse-common/matisse-common.mk)
 
