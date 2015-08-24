@@ -1,1 +1,1 @@
-require version-bootloader=T531XXU1B*
+require version-bootloader=T531XXU1BOD8
