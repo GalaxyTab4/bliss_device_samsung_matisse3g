@@ -15,9 +15,9 @@
 # Inherit from msm8226-common
 -include device/samsung/msm8226-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := s3ve3g,s3ve3gds,s3ve3gjv
+TARGET_OTA_ASSERT_DEVICE := matisse3g,matissewifi
 
-LOCAL_PATH := device/samsung/s3ve3g
+LOCAL_PATH := device/samsung/matisse3g
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
@@ -36,7 +36,10 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x1e00000
 TARGET_KERNEL_SOURCE := kernel/samsung/s3ve3g
 TARGET_KERNEL_CONFIG := msm8226-sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := msm8226-sec_s3ve3g_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8226-sec_matisse3g_defconfig
+
+#TARGET_KERNEL_SOURCE := kernel/samsung/matisse
+#TARGET_KERNEL_CONFIG := matissewifi_defconfig
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
