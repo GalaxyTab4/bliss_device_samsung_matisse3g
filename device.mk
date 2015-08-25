@@ -18,7 +18,7 @@ LOCAL_PATH := device/samsung/matisse3g
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Proprietary files
-$(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-vendor.mk)
+$(call inherit-product, vendor/samsung/matisse3g/matisse3g-vendor.mk)
 
 # Audio configuration
 PRODUCT_COPY_FILES += \

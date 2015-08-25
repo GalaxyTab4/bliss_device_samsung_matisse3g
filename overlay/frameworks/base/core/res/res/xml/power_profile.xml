@@ -32,12 +32,12 @@
         <value>148</value>
         <value>55</value>
     </array>
-    <item name="battery.capacity">2100</item>
+    <item name="battery.capacity">4000</item>
     <array name="wifi.batchedscan">
-        <value>.0002</value>
-        <value>.002</value>
-        <value>.02</value>
-        <value>.2</value>
-        <value>2</value>
+        <value>0.0074</value>
+        <value>0.061</value>
+        <value>0.484</value>
+        <value>3.85</value>
+        <value>30.9</value>
     </array>
 </device>
