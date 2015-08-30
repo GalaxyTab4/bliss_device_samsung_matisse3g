@@ -54,3 +54,9 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/matisse3g
+
+# Wifi
+
+# WiFi
+CONFIG_EAP_PROXY                 := qmi
+

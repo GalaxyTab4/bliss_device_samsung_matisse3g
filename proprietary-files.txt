@@ -219,6 +219,7 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
+lib/libwpa_qmi_eap_proxy.so
 
 # Radio
 bin/ds_fmc_appd
