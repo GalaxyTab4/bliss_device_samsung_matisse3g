@@ -65,6 +65,4 @@ ro.qc.sdk.sensors.gestures=true
 wifi.interface=wlan0
 
 # OTA Updates
-ro.ota.romname=BOSP-matisse3g
-ro.ota.version=20150827
-ro.ota.manifest=http://android.comtek-wiebe.de/BlissPop/sm-t531/ota/ota3.xml
+ro.ota.manifest=http://android.comtek-wiebe.de/BlissPop/sm-t531/ota/ota4.xml
